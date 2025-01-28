@@ -1,0 +1,15 @@
+weather:
+  api:
+    key: ${WEATHER_API_KEY}
+spring:
+
+  main:
+    allow-circular-references: true
+
+    servlet:
+      context-path:
+  redis:
+      host: local
+      port: 6379
+      password: ${REDIS_PASSWORD}
+
