@@ -15,7 +15,7 @@ public class PhishingDetectionService {
     private RestTemplate restTemplate;
 
     // API key and base URL for the Bolster Scan API
-    private static final String API_KEY = "so4whvz8bxmbssjqwnfzxbugnmrpww2dfvm54l4vo8dm35583xvle7dwxys5s739";
+    private static final String API_KEY = "your api key";
     private static final String BASE_URL = "https://developers.bolster.ai/api/neo/scan";
 
     public boolean isPhishing(String url) {
